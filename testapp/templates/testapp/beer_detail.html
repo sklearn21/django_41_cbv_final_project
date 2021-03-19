@@ -1,0 +1,16 @@
+{% extends 'testapp/base.html' %}
+
+    {%block body_block%}
+        <div class="jumbotron">
+        <h1> Beer Detail Information</h1><hr>
+        <ul>
+            <li> Name: {{beer.name}}</li>
+            <li> Taste: {{beer.taste}}</li>
+            <li> Color: {{beer.color}}</li>
+            <li> Price: {{beer.price}}</li>
+
+        </ul>
+
+        </div>
+
+    {%endblock%}
